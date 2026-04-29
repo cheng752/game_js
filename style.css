@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-image: url(./background.jpg);
+    background-size: cover;
+
+}
+#board{
+    height: 532px;
+    width: 475px;
+    margin: 0 auto;
+    background-color:#fff;
+    border: 10px solid lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-button {
+    display: flex;
+    gap: 10px;
+  }
+  #playAgain {
+    margin: 30px;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+    background-color: #5ce86a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ 
+  #exitGame {
+    margin: 30px;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+    background-color: #d9534f;
+    color:#fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ 
+.card{
+    height: 128px;
+    width:90px;
+    margin: 2.5px;
+}
